@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DE510F61-FA2E-42B9-BD3D-CF0EDE87D70D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>rottenTomato</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DA01E5DE801F0888D0C547324E8544C559DAD606</key>
+		<string>https://github.com/linghuaj/rotten-tomato.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>rottenTomato.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DA01E5DE801F0888D0C547324E8544C559DAD606</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/linghuaj/rotten-tomato.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DA01E5DE801F0888D0C547324E8544C559DAD606</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA01E5DE801F0888D0C547324E8544C559DAD606</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rottenTomato</string>
+		</dict>
+	</array>
+</dict>
+</plist>

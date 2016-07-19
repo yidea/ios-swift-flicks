@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE6073B1BA63CF6003F3EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6073A1BA63CF6003F3EF8 /* AppDelegate.swift */; };
+		8CE6073D1BA63CF6003F3EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6073C1BA63CF6003F3EF8 /* ViewController.swift */; };
+		8CE607401BA63CF6003F3EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE6073E1BA63CF6003F3EF8 /* Main.storyboard */; };
+		8CE607421BA63CF6003F3EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE607411BA63CF6003F3EF8 /* Images.xcassets */; };
+		8CE607451BA63CF6003F3EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CE607431BA63CF6003F3EF8 /* LaunchScreen.xib */; };
+		8CE6075C1BA68D97003F3EF8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6075B1BA68D97003F3EF8 /* MovieCell.swift */; };
+		8CE6075F1BA69EC3003F3EF8 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6075E1BA69EC3003F3EF8 /* MovieDetailViewController.swift */; };
+		9610327DC5EAF2EDD7F775B1 /* Pods_rottenTomato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB6DE8E3730E902715638F /* Pods_rottenTomato.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE6074B1BA63CF6003F3EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE6072D1BA63CF6003F3EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE607341BA63CF6003F3EF8;
+			remoteInfo = rottenTomato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADB6DE8E3730E902715638F /* Pods_rottenTomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rottenTomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D15C98E4FCDB5C0A61FE276 /* libPods-rottenTomatoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rottenTomatoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ABC807143621B1643D0557 /* Pods-rottenTomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rottenTomato.release.xcconfig"; path = "Pods/Target Support Files/Pods-rottenTomato/Pods-rottenTomato.release.xcconfig"; sourceTree = "<group>"; };
+		8CE607351BA63CF6003F3EF8 /* flicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE607391BA63CF6003F3EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE6073A1BA63CF6003F3EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE6073C1BA63CF6003F3EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CE6073F1BA63CF6003F3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE607411BA63CF6003F3EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CE607441BA63CF6003F3EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CE6074A1BA63CF6003F3EF8 /* flicks.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flicks.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE6075B1BA68D97003F3EF8 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8CE6075E1BA69EC3003F3EF8 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		C80473EAC45840D340008FFF /* Pods-rottenTomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rottenTomato.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rottenTomato/Pods-rottenTomato.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE607321BA63CF6003F3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610327DC5EAF2EDD7F775B1 /* Pods_rottenTomato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE607471BA63CF6003F3EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3705C537DEA8EF8E60A0FBA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C80473EAC45840D340008FFF /* Pods-rottenTomato.debug.xcconfig */,
+				85ABC807143621B1643D0557 /* Pods-rottenTomato.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A7E9572184DA49492BCA124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D15C98E4FCDB5C0A61FE276 /* libPods-rottenTomatoTests.a */,
+				1ADB6DE8E3730E902715638F /* Pods_rottenTomato.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE6072C1BA63CF6003F3EF8 = {
+			isa = PBXGroup;
+			children = (
+				8CE607371BA63CF6003F3EF8 /* flicks */,
+				8CE607361BA63CF6003F3EF8 /* Products */,
+				3705C537DEA8EF8E60A0FBA0 /* Pods */,
+				6A7E9572184DA49492BCA124 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE607361BA63CF6003F3EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE607351BA63CF6003F3EF8 /* flicks.app */,
+				8CE6074A1BA63CF6003F3EF8 /* flicks.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE607371BA63CF6003F3EF8 /* flicks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6075D1BA69EA4003F3EF8 /* viewControllers */,
+				8CE6075A1BA68D51003F3EF8 /* views */,
+				8CE6073A1BA63CF6003F3EF8 /* AppDelegate.swift */,
+				8CE6073E1BA63CF6003F3EF8 /* Main.storyboard */,
+				8CE607411BA63CF6003F3EF8 /* Images.xcassets */,
+				8CE607431BA63CF6003F3EF8 /* LaunchScreen.xib */,
+				8CE607381BA63CF6003F3EF8 /* Supporting Files */,
+			);
+			name = flicks;
+			path = rottenTomato;
+			sourceTree = "<group>";
+		};
+		8CE607381BA63CF6003F3EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE607391BA63CF6003F3EF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CE6075A1BA68D51003F3EF8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6075B1BA68D97003F3EF8 /* MovieCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		8CE6075D1BA69EA4003F3EF8 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6073C1BA63CF6003F3EF8 /* ViewController.swift */,
+				8CE6075E1BA69EC3003F3EF8 /* MovieDetailViewController.swift */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE607341BA63CF6003F3EF8 /* flicks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE607541BA63CF6003F3EF8 /* Build configuration list for PBXNativeTarget "flicks" */;
+			buildPhases = (
+				1DCD42AB0CC9E4A2E3D3CDF3 /* [CP] Check Pods Manifest.lock */,
+				8CE607311BA63CF6003F3EF8 /* Sources */,
+				8CE607321BA63CF6003F3EF8 /* Frameworks */,
+				8CE607331BA63CF6003F3EF8 /* Resources */,
+				DA3448B835A3AC8E5171DDD8 /* [CP] Embed Pods Frameworks */,
+				88DD6D7BF14604F2AF6F02CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flicks;
+			productName = rottenTomato;
+			productReference = 8CE607351BA63CF6003F3EF8 /* flicks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE607491BA63CF6003F3EF8 /* flicksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE607571BA63CF6003F3EF8 /* Build configuration list for PBXNativeTarget "flicksTests" */;
+			buildPhases = (
+				9406077AE7B6B68591D742B1 /* [CP] Check Pods Manifest.lock */,
+				8CE607461BA63CF6003F3EF8 /* Sources */,
+				8CE607471BA63CF6003F3EF8 /* Frameworks */,
+				8CE607481BA63CF6003F3EF8 /* Resources */,
+				55C4DAF72686E885FEE3C062 /* [CP] Embed Pods Frameworks */,
+				D2FF67B72F99FDD22A26DCF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE6074C1BA63CF6003F3EF8 /* PBXTargetDependency */,
+			);
+			name = flicksTests;
+			productName = rottenTomatoTests;
+			productReference = 8CE6074A1BA63CF6003F3EF8 /* flicks.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE6072D1BA63CF6003F3EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					8CE607341BA63CF6003F3EF8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8CE607491BA63CF6003F3EF8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8CE607341BA63CF6003F3EF8;
+					};
+				};
+			};
+			buildConfigurationList = 8CE607301BA63CF6003F3EF8 /* Build configuration list for PBXProject "flicks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE6072C1BA63CF6003F3EF8;
+			productRefGroup = 8CE607361BA63CF6003F3EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE607341BA63CF6003F3EF8 /* flicks */,
+				8CE607491BA63CF6003F3EF8 /* flicksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE607331BA63CF6003F3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE607401BA63CF6003F3EF8 /* Main.storyboard in Resources */,
+				8CE607451BA63CF6003F3EF8 /* LaunchScreen.xib in Resources */,
+				8CE607421BA63CF6003F3EF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE607481BA63CF6003F3EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DCD42AB0CC9E4A2E3D3CDF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55C4DAF72686E885FEE3C062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rottenTomatoTests/Pods-rottenTomatoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DD6D7BF14604F2AF6F02CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rottenTomato/Pods-rottenTomato-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9406077AE7B6B68591D742B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FF67B72F99FDD22A26DCF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rottenTomatoTests/Pods-rottenTomatoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3448B835A3AC8E5171DDD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rottenTomato/Pods-rottenTomato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE607311BA63CF6003F3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE6075F1BA69EC3003F3EF8 /* MovieDetailViewController.swift in Sources */,
+				8CE6073D1BA63CF6003F3EF8 /* ViewController.swift in Sources */,
+				8CE6073B1BA63CF6003F3EF8 /* AppDelegate.swift in Sources */,
+				8CE6075C1BA68D97003F3EF8 /* MovieCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE607461BA63CF6003F3EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE6074C1BA63CF6003F3EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE607341BA63CF6003F3EF8 /* flicks */;
+			targetProxy = 8CE6074B1BA63CF6003F3EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE6073E1BA63CF6003F3EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE6073F1BA63CF6003F3EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE607431BA63CF6003F3EF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE607441BA63CF6003F3EF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE607521BA63CF6003F3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE607531BA63CF6003F3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE607551BA63CF6003F3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80473EAC45840D340008FFF /* Pods-rottenTomato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = rottenTomato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flicks;
+				PRODUCT_NAME = flicks;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CE607561BA63CF6003F3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85ABC807143621B1643D0557 /* Pods-rottenTomato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = rottenTomato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flicks;
+				PRODUCT_NAME = flicks;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8CE607581BA63CF6003F3EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rottenTomatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = flicks;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flicks.app/flicks";
+			};
+			name = Debug;
+		};
+		8CE607591BA63CF6003F3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rottenTomatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = flicks;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flicks.app/flicks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE607301BA63CF6003F3EF8 /* Build configuration list for PBXProject "flicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE607521BA63CF6003F3EF8 /* Debug */,
+				8CE607531BA63CF6003F3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE607541BA63CF6003F3EF8 /* Build configuration list for PBXNativeTarget "flicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE607551BA63CF6003F3EF8 /* Debug */,
+				8CE607561BA63CF6003F3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE607571BA63CF6003F3EF8 /* Build configuration list for PBXNativeTarget "flicksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE607581BA63CF6003F3EF8 /* Debug */,
+				8CE607591BA63CF6003F3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE6072D1BA63CF6003F3EF8 /* Project object */;
+}
